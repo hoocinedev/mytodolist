@@ -1,0 +1,42 @@
+.daysbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.daysbar { 
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+body {
+    margin : 0% 10%;
+}
+
+.daysbar ul li a {
+    color: #fdd718;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+}
+
+.daysbar ul li a i {
+    display: flex;
+    font-size: 12px;
+}
+
+.taskbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.taskbar {
+    background-color: black;
+    border-radius: 20px;
+}
